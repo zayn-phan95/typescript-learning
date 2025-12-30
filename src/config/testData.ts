@@ -1,4 +1,4 @@
-import { TestUser } from '@types/index';
+import { TestUser } from '../types';
 
 export const testUsers: Record<string, TestUser> = {
   validUser: {

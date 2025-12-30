@@ -19,9 +19,10 @@
       "@fixtures/*": ["src/fixtures/*"],
       "@utils/*": ["src/utils/*"],
       "@config/*": ["src/config/*"],
+      "@types": ["src/types"],
       "@types/*": ["src/types/*"]
     }
   },
-  "include": ["src/**/*", "tests"],
-  "exclude": ["node_modules", "dist"]
+  "include": ["src/**/*", "tests/**/*"],
+  "exclude": ["node_modules", "dist", "playwright-report", "test-results"]
 }
